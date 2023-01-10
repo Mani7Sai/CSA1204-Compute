@@ -5,5 +5,5 @@ for i in range (0,p):
     cr=float(input("Enter the clock rate in GHz: "))
     a=1000*cpi/cr
     ct.append(a)
-    print("The processor has lowest Execution time: ",min(ct))
+print("The processor has lowest Execution time: ",min(ct))
     
